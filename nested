@@ -1,0 +1,11 @@
+u='ekshi001'
+p='123'
+username= input()
+if username == u :
+    password= input()
+    if password==p:
+        print("login successful")
+    else:
+        print("invalid password")
+else:
+    print("invalid username")

@@ -1,0 +1,14 @@
+character = input("character")
+match character:
+    case'a':
+        print("it is vowal")
+    case'e':
+        print("it is vowal")
+    case'i':
+        print("it is vowal")
+    case'o':
+        print("it is vowal")
+    case'u':
+        print("it is vowal")
+    case _:
+        print("it is not vowal")
